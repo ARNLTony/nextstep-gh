@@ -109,3 +109,4 @@ Each API call involves:
 ## License
 
 MIT
+# Built and tested on NeXTSTEP 3.3
