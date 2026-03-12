@@ -7,3 +7,7 @@ gh
 
 # Token file
 .github_token
+
+# Transfer helper scripts
+deploy.py
+ftp_server.py

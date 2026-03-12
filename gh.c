@@ -355,7 +355,7 @@ int c;
  * Decode base64 data in-place (or to a separate buffer).
  * Skips whitespace in input. Returns decoded length.
  */
-int base64_decode(src, src_len, dst, dst_size)
+int gh_base64_decode(src, src_len, dst, dst_size)
 char *src;
 int src_len;
 char *dst;
@@ -1095,7 +1095,7 @@ char *filepath;
         return;
     }
 
-    decoded_len = base64_decode(val, len, decoded, len);
+    decoded_len = gh_base64_decode(val, len, decoded, len);
     printf("\n%s\n", decoded);
 
     free(decoded);
