@@ -5,7 +5,7 @@
  * Connects directly to api.github.com over TLS 1.2
  * using Crypto Ancienne (cryanc) by Cameron Kaiser.
  *
- * Build: cc -O -o gh github.c
+ * Build: cc -O -o gh gh.c
  * Usage: ./gh                       (reads .github_token)
  *        ./gh ghp_xxxxxxxxxxxx      (pass token directly)
  *
