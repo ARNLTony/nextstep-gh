@@ -1,0 +1,9 @@
+# Crypto Ancienne TLS library (fetched via fetch_cryanc.sh)
+cryanc.c
+cryanc.h
+
+# Compiled binary
+gh
+
+# Token file
+.github_token
